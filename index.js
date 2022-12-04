@@ -11,18 +11,18 @@ function logShout(string) {
 function logWhisper(string) {
     console.log(string.toLowerCase());
 }
-function sayHiToHeadphonedRoommate(hello) {
-    let cantUnswer = "I can't hear you!";
-    let yesUnswer = "YES INDEED!";
-    let lovUnswer = "I would love to!";
-    
-    if (hello.toLowerCase(hello) === hello) {
-      return cantUnswer;
-    }
-    else if (hello.toUpperCase(hello) === hello) {
-      return yesUnswer;
-    }
-    else if ("Let's have dinner together!" === hello) {
-      return lovUnswer;
-    }
+function sayHiToHeadphonedRoommate(listen) {
+  let cantHear = "I can't hear you!";
+  let canAnswer = "YES INDEED!";
+  let letsEat = "I would love to!";
+
+  if (listen.toLowerCase(listen) === listen) {
+    return cantHear;
   }
+  else if (listen.toUpperCase(listen) === listen) {
+    return canAnswer;
+  }
+  else if ("Let's have dinner together!" === listen) {
+    return letsEat;
+  }
+}
