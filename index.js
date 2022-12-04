@@ -12,9 +12,10 @@ function logWhisper(string) {
     console.log(string.toLowerCase());
 }
 function sayHiToHeadphonedRoommate(hello) {
-    var cantUnswer = "I can't hear you!";
-    var yesUnswer = "YES INDEED!";
-    var lovUnswer = "I would love to!";
+    let cantUnswer = "I can't hear you!";
+    let yesUnswer = "YES INDEED!";
+    let lovUnswer = "I would love to!";
+    
     if (hello.toLowerCase(hello) === hello) {
       return cantUnswer;
     }
